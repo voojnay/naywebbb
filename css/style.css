@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:white;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #ff749e;
+}
+
+
+
+
+ul li {
+list-style: none;
+display: inline-block;
+line-height: 100px;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #801C3A;
+    padding: 0 20px;
+}
+
+ul li a:hover {
+    color:  #ff749e;
+}
+
+table {
+    width: 400px;
+    /*border-spacing: 40px;*/
+}
+
+
+
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f5aff5;
+}
+
+tr:nth-child(odd) {
+    background-color: #f394eb;
+}
+ 
+/* Reset default margin and padding for body and lists */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the main menu */
+  .main-menu {
+    background-color: #333;
+  }
+  
+  /* Style list items in the main menu */
+  .main-menu ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .main-menu li {
+    margin: 0;
+  }
+  
+  /* Style links in the main menu */
+  .main-menu a {
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Change link color on hover */
+  .main-menu a:hover {
+    background-color: #555;
+  }
+  
+  /* Style the sample list */
+  .sample-list {
+    list-style: disc; /* Use a disc bullet for the list items */
+    margin-top: 10px;
+  }
+  
+  .sample-list li {
+    margin-left: 20px; /* Add some space to the left of each list item */
+  }
